@@ -1,0 +1,47 @@
+=== galoisLocalGlobalStrong_recParameter ===
+  Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean:6  theorem galoisLocalGlobalStrong_recParameter : UpperTheory.GalStar.Row0b recT := galoisRepresentations_of_thetaLift UpperTheory.TP.K.tLiftK
+
+=== every_character_of_literature_of_vWin ===
+  (未找到定义)
+
+=== vwin_of_row ===
+  (未找到定义)
+
+=== rh_of_right ===
+  (未找到定义)
+
+=== UpperTheory.EveryCharacter ===
+  Development/AutomorphicArithmetic/CharacterBoxes/EveryCharacter.lean:13  def UpperTheory.EveryCharacter : Prop :=
+
+=== Claim.strip ===
+  Development/AbelianVarietyTheory/Definitions/Foundations/OrderedConst.lean:58  def strip (ψ : Fin n → kˣ →* ℂˣ) (r : ℕ) (ϖ : k) (m : ℕ) : Set (GL (Fin n) k) :=
+  Development/AbelianVarietyTheory/Definitions/Foundations/RepL.lean:46  def strip : Set ℍ := {τ | 0 ≤ τ.re ∧ τ.re < 1}
+  Development/AbelianVarietyTheory/Definitions/TwistedInnerProducts/PartFixed.lean:62  def strip (W : HSp D) (R : Subgroup (GA D W)) (C : Set (GA D W)) : Set (GA D W) := {h | ∃ r ∈ R, ∃ c ∈ C, ∃ b ∈ GfC W, h = r * c * b}
+  Development/AbelianVarietyTheory/Proofs/TwistedOperators/DegreeSingleAdd.lean:113  def strip (s : Finset ι) : g →ₗ[R] g := LinearMap.id - ∑ j ∈ s, (c j).smulRight (e j)
+  Development/AutomorphicArithmetic/AutomorphicVarieties/AutomorphicForms/AutomorphicRankinSelberg/StripInt.lean:12  def strip : Set ℍ := {z | 0 ≤ z.re ∧ z.re < 1}
+  Development/AutomorphicArithmetic/CharacterBoxes/ClaimStrip.lean:59  theorem strip (h : HalfPlane) : Strip := by
+  Development/WeilBound/CoreStatements/AutomorphicKernels/SiegelWeilFormula/DilationDecomposition/Imports.lean:20  def strip (X : Fin n → ℝ) : Set ℂ := {z | ∀ j, |z.im * X j| < Real.pi / 4}
+  Development/WeilBound/CoreStatements/AutomorphicKernels/SiegelWeilFormula/EisensteinMeromorphy/DiffContOfReg.lean:56  theorem strip (h1 : ∀ x, 1 ≤ h x) {g : ℂ → X → ℂ}
+  GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PFiniteCoverPuncturedPolydisc.lean:16  def strip (c : Fin (e + 1) → ℂ) (ρ : ℝ) : Set (Fin (e + 1) → ℂ) :=
+  PositivityTheory/AutomorphicForms/PublishedInputs/CuspidalContinuity/ArchimedeanCuspidal/StripEstimates/FaceMapCompSuccAboveCastSucc.lean:47  def strip : Set ℍ := {z | 0 ≤ z.re ∧ z.re < 1}
+
+=== Claim.zeta ===
+  CompanionTheory/HarishChandraModules/LowKTypeMultiplicity/DiscreteSeriesCharacters/CapelliDeterminantBlockProduct.lean:89  def zeta {A : Type} [Ring A] [Algebra ℂ A] (ε : Fin n → Bool) (F : Fin n → Fin n → A) (u : ℂ) : A :=
+  Development/AbelianVarietyTheory/BlockTheory/DivisorBase/EpsilonPairingZeta.lean:23  def zeta (ε : PreTilt O p) (n : ℕ) : O := PreTilt.untilt (root^[n] ε)
+  Development/AbelianVarietyTheory/Definitions/Foundations/EisValueAtIffEisPoleLE.lean:80  def zeta : ℂ → ℂ := fun s => dblInt V μ m (eis V (Φ s)) f₁ f₂
+  Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/ConnPhiExtensionGeneratorEqZeta.lean:422  def zeta : Module.End K (Vec K a ι) := -(geom P.lphi * P.lphi * P.conn)
+  Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/EqLatFrameOfIsSDFrame.lean:42  def zeta (I : TC B X) (l : I.Laws) (Z : TC.Later B (I.cols l)) (u : B.Word) : Fin (lineZ (I.rec7 l Z)).rank → (I.rec7 l Z).host.E :=
+  Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/I0M.lean:47  def zeta (L : HSp D) : Fin L.rank → D.host.E := fun _ => 1
+  Development/AutomorphicArithmetic/AutomorphicVarieties/UnitaryThreeGroups/BaseRepGL3NormalisedOfPsiEqOne.lean:13  def zeta (c g₁ : G) (r : G →* GG 3 R) : R := zmat c g₁ r 0 0
+  Development/AutomorphicArithmetic/CharacterBoxes/ClaimStrip.lean:75  theorem zeta (h : HalfPlane) : Zeta := by
+  Development/AutomorphicArithmetic/ThetaCorrespondence/FockModels/TiltedDrinfeld/CoeUntiltIterateLFlat.lean:19  def zeta (n : ℕ) : 𝒪 := Formalism.Per6.intEquiv l (AI.ζ n)
+  Development/AutomorphicSpectrum/Proofs/MetricProofs/FlagAdjacentFrameComparison.lean:261  def zeta (M : FlagModel y Ψ N j) (zb : (Σ k, baseIdx ι M.blk k) → ℂ) (F₁ F₂ : FrameData ι Ψ N M.Ω M.blk) :
+  Development/WeilBound/ThetaLifts/LatticeBasics/LocUnrSplitL.lean:21  theorem zeta (h : LF O (ϖ : k) nrm q) {A : kˣ →* ℂ} (hA : ∀ u : kˣ, nrm u = 1 → A u = 1)
+  Formalism/FormalDegreeBessel/StatementG.lean:77  def zeta (k r : ℕ) (z z' : Fin (2 * r + k + 1) → ℂ)
+
+=== recTExists ===
+  (未找到定义)
+
+=== Row0b ===
+  Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/TypeConditions/WeightsConjBis.lean:69  def Row0b : Prop :=
+
